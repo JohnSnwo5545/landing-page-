@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Russo+One&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -16,24 +20,27 @@ section {
     flex-direction: row;
 
 }
-.navbar{
+
+.navbar {
     position: fixed;
     z-index: 99999;
-    width:100%;
+    width: 100%;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     margin-left: 48%;
     font-size: 22px;
     text-transform: uppercase;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     margin-right: 30px;
-    color:white;
+    color: white;
     letter-spacing: 1px;
 }
+
 .left {
     width: 45%;
     height: 100%;
@@ -53,4 +60,66 @@ section {
 .right {
     width: 55%;
     height: 100%;
+    padding-left: 80px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-up .btn-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-up h1 {
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 25px;
+
+}
+
+.box-up .btn-box button {
+    width: 210px;
+    height: 70px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.box-up .btn-box .btn-detail button {
+    background: linear-gradient(to left, #712fe7, #9e11f9);
+    box-shadow: 0px 0px 10px #9e11f9;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.box-up .btn-box .buy button {
+    background: transparent;
+    border: 2px solid #9e11f9;
+    width: 230px !important;
+}
+
+.trait {
+    width: 500px;
+    height: 2px;
+    background: linear-gradient(to right, #445682, #263556);
+    border-radius: 50px;
+    margin: 50px 0;
+}
+.icon-boxes{
+    display: flex;
 }
