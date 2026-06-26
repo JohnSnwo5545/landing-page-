@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Russo One ";
+}
+
+body {
+    background-color: #263556;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar{
+    position: fixed;
+    z-index: 99999;
+    width:100%;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 48%;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+    color:white;
+    letter-spacing: 1px;
+}
+.left {
+    width: 45%;
+    height: 100%;
+}
+
+.left .bg {
+    position: relative;
+}
+
+
+
+.left .bg .img {
+    position: absolute;
+    top: 15%
+}
+
+.right {
+    width: 55%;
+    height: 100%;
+}
